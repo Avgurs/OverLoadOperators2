@@ -15,6 +15,8 @@ namespace OverLoadOperators
             ThreeD ob2 = ThreeD.Fabrica(5, -5, 10);
             ThreeD ob3 = ob1 + ob2;
             ob3.Show();
+            ThreeD ob4 = ob1 + 5;
+            ob4.Show();
             Console.ReadKey();
         }
 
